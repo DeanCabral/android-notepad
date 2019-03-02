@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings And Customisation">
+
+        <CheckBoxPreference
+            android:key="autoSave"
+            android:title="Auto Save"
+            android:summary="Automatically save your note(s) when you exit or leave the Note Editor"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="alphaSort"
+            android:title="Alphabetical Sort"
+            android:summary="Sort your saved notes in alphabetical order. Default sort order displays recent notes first."
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="updateTime"
+            android:title="Update Timestamp"
+            android:summary="Update the date and time of a note whenever changes have been made by the user"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Miscellaneous">
+
+        <Preference
+            android:key="licences"
+            android:title="Software Licences"
+            android:summary="Open Source Licences that helped advance the usability and development of this application"
+            android:defaultValue="Default value" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Special Thanks">
+
+        <Preference
+            android:title="Clydia"
+            android:summary="You know who you are."
+            android:defaultValue="Default value" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

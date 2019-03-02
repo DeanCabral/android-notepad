@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".NoteEditorActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        app:layout_collapseMode="pin" />
+
+    <EditText
+        android:layout_below="@id/toolbar"
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:padding="10dp"
+        android:inputType="textNoSuggestions"
+        android:hint="Title"
+        android:textColorHint="@color/colorGrey"
+        android:background="@color/colorDarkGrey"
+        android:gravity="start"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edit_text_title">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_text_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Note Description..."
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:minLines="25"
+                android:padding="10dp"
+                android:gravity="top"
+                android:textColorHint="@color/colorGrey"
+                android:background="@color/colorPrimary"
+                android:textSize="16sp"
+                android:inputType="textMultiLine|textNoSuggestions"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
