@@ -32,12 +32,12 @@ The **Notepad App** is a secure and intuitive Android application designed to he
 
 This project aims to simplify note-taking while enhancing security and flexibility for users. The core features include:
 
-- 🔒 **Note Locking:** Secure your notes with a password to keep sensitive information private.
-- 📅 **Filtering Options:** Easily filter notes by title, date, or time published.
-- ⚙️ **Custom Settings:** Enable features such as auto-save, alphabetical sorting, and more.
-- 🔄 **Auto-Save:** Notes are automatically saved, ensuring no data is lost.
-- 🎨 **User-Friendly UI:** Simple and easy-to-navigate design for an optimal experience.
-- 🗂 **Organised Notes:** Manage your notes efficiently with custom sorting and filtering.
+- **Note Locking:** Secure your notes with a password to keep sensitive information private.
+- **Filtering Options:** Easily filter notes by title, date, or time published.
+- **Custom Settings:** Enable features such as auto-save, alphabetical sorting, and more.
+- **Auto-Save:** Notes are automatically saved, ensuring no data is lost.
+- **User-Friendly UI:** Simple and easy-to-navigate design for an optimal experience.
+- **Organised Notes:** Manage your notes efficiently with custom sorting and filtering.
 
 ---
 
